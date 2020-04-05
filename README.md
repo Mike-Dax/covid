@@ -29,3 +29,8 @@ The notebook is updated every evening Eastern Time.
 - Since we're using the entire timeline to infer the doubling times, these are not the current or most recent doubling times. Instead, for countries where the growth is exponential, the inferred doubling time is indicative of the overall rate of growth.
 - For countries where the growth is no longer exponential and the number of cases is stabilizing (such as Mainland China), we fit the growth curve to a logistic function. Here, the inferred doubling time represents the growth encountered during the initial exponential stage of the epidemic (i.e., in the past).
 
+## To run
+
+```
+jupyter notebook curvefit.ipynb
+```
